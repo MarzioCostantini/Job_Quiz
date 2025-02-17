@@ -1,0 +1,151 @@
+@font-face {
+  font-family: NeueMachinaR;
+  src: url("/fonts/NeueMachina-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NeueMachinaL;
+  src: url("/fonts/NeueMachina-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NeueMachinaB;
+  src: url("/fonts/NeueMachina-Ultrabold.otf") format("opentype");
+}
+
+body {
+  margin: 0;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lila: #5D3EDE;
+  --green: #00ECAA;
+  --dark: #070021;
+  --white: #fff;
+  --easy: #9fdb6b;
+  --medium: orange;
+  --hard: red;
+  --space-sm: 30px;
+  --space-big: 60px;
+  --space-xl: 90px;
+  --text-color: #03000f;
+}
+
+html {
+  font-family: NeueMachinaL, Arial, Helvetica, sans-serif;
+}
+
+.quiz a {
+  text-decoration: none;
+}
+
+.quiz h1,
+.quiz h2,
+.quiz h3,
+.quiz h4,
+.quiz h5,
+.quiz h6 {
+  font-family: NeueMachinaB;
+}
+
+.quiz h1 {
+  font-size: 65px;
+}
+
+.quiz h2 {
+  font-size: 55px;
+}
+
+p,
+a {
+  font-size: 20px;
+  color: var(--text-color);
+  font-family: NeueMachinaL, Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-weight: lighter;
+  color: var(--text-color);
+  font-family: NeueMachinaL, Arial, Helvetica, sans-serif;
+}
+
+
+.right {
+  background-color: var(--green) !important;
+  color: var(--lila) !important;
+}
+
+.wrong {
+  background-color: #A95656 !important;
+  color: white !important;
+  border: 6px solid #A95656 !important;
+}
+
+.btn {
+  background-color: var(--green);
+  color: var(--lila);
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:disabled {
+  opacity: 0.3;
+  transform: scale(1.0);
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .quiz h1 {
+    font-size: 48px;
+  }
+
+  .quiz h2 {
+    font-size: 32px;
+  }
+
+  .quiz p,
+  .quiz a {
+    font-size: 18px;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p,
+  a {
+    font-size: 16px;
+
+  }
+
+}

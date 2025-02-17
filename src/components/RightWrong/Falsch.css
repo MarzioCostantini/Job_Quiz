@@ -1,0 +1,24 @@
+.falsch {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+
+    max-width: 800px;
+    text-align: left;
+    color: white;
+
+    background-color: #A95656;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.falsch p {
+    color: white;
+
+}
+
+.falsch svg {
+    height: 80px;
+    width: 80px;
+}

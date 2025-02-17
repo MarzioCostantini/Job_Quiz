@@ -1,0 +1,24 @@
+.richtig {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+
+    max-width: 800px;
+    text-align: left;
+    color: white;
+
+    background-color: #56A977;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.richtig p {
+    color: white;
+
+}
+
+.richtig svg {
+    height: 80px;
+    width: 80px;
+}
