@@ -84,20 +84,17 @@ const SelectQuiz = () => {
 
         <section className="select-q">
             {loading && <LoadingQuiz />}
-            <h1>SuperCode Jop Quiz Interview fragen</h1>
-            <p className="text">Finder heraus wie fit du bist für potenzielle Job interview fragen</p>
+            <h1>SuperCode Job Quiz Interviewfragen</h1>
+            <p className="text">Finde heraus, wie fit du für potenzielle Job-Interviewfragen bist.</p>
 
             <article>
                 <div onClick={() => loadQuestions("frontend")}>
-                    <p>Zum <br /> Fontend <br /> Quiz</p>
+                    <p>Zum <br /> Frontend <br /> Quiz</p>
                 </div>
                 <div onClick={() => loadQuestions("uiux")}>
-                    <p> Zum <br /> UI / UX <br /> Quiz</p>
+                    <p>Zum <br /> UI/UX <br /> Quiz</p>
                 </div>
-
-
             </article>
-
         </section>
     );
 }

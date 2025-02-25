@@ -170,9 +170,8 @@ const QuizPage = () => {
                 </>
             ) : (
                 <div className="done">
-                    <h2>Das Quiz ist zuende</h2>
-                    <p>Zu hast insgesamt 20 fragen beantwortet, davon waren {punktestand.richtig} richtig und {punktestand.falsch} falsch.
-                    </p>
+                    <h2>Das Quiz ist zu Ende</h2>
+                    <p>Du hast insgesamt 20 Fragen beantwortet, davon waren {punktestand.richtig} richtig und {punktestand.falsch} falsch.</p>
 
                     <Link to="/" className="btn">Zurück</Link>
                 </div>
